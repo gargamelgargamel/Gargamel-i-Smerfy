@@ -13,10 +13,8 @@ protected:
 	int limitY;
 	
 public:
-	MATKA();
-	~MATKA();
-	
-	void move();
+	void init();	// ustawienie obiektu
+	void move();	// ruch obiektu
 	bool ret_alive();
 	void set_alive(bool);
 };
